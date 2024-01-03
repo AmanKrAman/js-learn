@@ -4,6 +4,7 @@ var accountPassword = "12358"
 accountCity = "Delhi"
 
 let accountState
+let accountType = "Student"
 
 /*
 Prefer not to use var
@@ -15,4 +16,4 @@ accountEmail = "xyz@gmail.com"
 accountCity = "Banglore"
 accountPassword = "123456"
 console.log(accountId);
-console.table([accountEmail , accountId , accountPassword , accountCity , accountState]);
+console.table([accountEmail , accountId , accountPassword , accountCity , accountState, accountType]);
