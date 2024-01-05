@@ -24,7 +24,7 @@ const bigNum = 1235465613113626111616161661664946131n
 //Reference type or non premetive : Array , Objects ,Function
 
 const heros = ["Aman" , "Kumar" , "Saurabh" , "Anshu"]
-console.log(heros[0]);
+// console.log(heros[0]);
 
 let myObj = {
     name: "AMAN",
@@ -35,7 +35,7 @@ const myFun = function(){
     console.log("Hello World");
 }
 
-console.log(typeof myFun);
+// console.log(typeof myFun);
 
 // Return type of variables in JavaScript
 // 1) Primitive Datatypes
@@ -51,3 +51,21 @@ console.log(typeof myFun);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+//Stack(Primitive) : you get copy of the data as a memory
+ // heap (Non primitive) : you get reference of the data as a memory
+let myyoutubename = "aman63280@gmail.com"
+let anothername = myyoutubename 
+anothername = "aman41238" 
+console.log(myyoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "ak321@gmail.com",
+    upi: "ak@ybl"
+}
+let userTwo = userOne
+userTwo.email =  "aman2589@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
