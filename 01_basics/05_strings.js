@@ -27,5 +27,6 @@ console.log(url.includes('aman'));    //true
 
 
 const sentence = "I am a boy who do not like ISKCON morning program from the begining but m forced by the leader of the ISKCON BACE"
+console.log(sentence.italics());
 const words = sentence.split(' ')
 console.log(words);
