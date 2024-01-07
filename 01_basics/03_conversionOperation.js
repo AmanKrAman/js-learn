@@ -44,7 +44,7 @@ let str3 = "Aman Here!"
 
 // console.log(true);
 // console.log(+true);
-console.log(+"");
+// console.log(+"");
 
 let num1 , num2, num3;
 num1 = num2 = num3 = 20+30;

@@ -17,7 +17,7 @@ const anotherId = Symbol('1230')
 
 // console.log(id === anotherId);
 
-const bigNum = 1235465613113626111616161661664946131n
+const bigNum = 1235465613113626111616161661664946131
 // console.log(bigNum);
 // console.log(typeof bigNum);
 
@@ -31,6 +31,7 @@ let myObj = {
     age: 24
 }
 
+// console.log(myObj.age);
 const myFun = function(){
     console.log("Hello World");
 }
@@ -57,15 +58,19 @@ const myFun = function(){
  // heap (Non primitive) : you get reference of the data as a memory
 let myyoutubename = "aman63280@gmail.com"
 let anothername = myyoutubename 
+console.log(anothername);
 anothername = "aman41238" 
 console.log(myyoutubename);
 console.log(anothername);
 
 let userOne = {
     email: "ak321@gmail.com",
-    upi: "ak@ybl"
+    upi: "ak@ybl",
+    mob: 9852297226
 }
 let userTwo = userOne
 userTwo.email =  "aman2589@google.com"
 console.log(userOne.email);
 console.log(userTwo.email);
+console.log(userTwo.mob);
+console.log(typeof userTwo.mob);

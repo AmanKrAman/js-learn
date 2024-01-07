@@ -7,8 +7,8 @@ const balance = new Number (200)
 // console.log(balance.toFixed(2));
 
 const Num = 1085.8966
-// console.log(Num.toFixed(2));
-// console.log(Num.toPrecision(3));
+console.log(Num.toFixed(2));
+console.log(Num.toPrecision(3));
 
 
 const hundreds = 1000000
@@ -25,7 +25,7 @@ const hundreds = 1000000
 // console.log(Math.min(4,5,6,8));
 // console.log(Math.max(4,5,6,8));
 
-// console.log(Math.random());  //t gives value under 0 and 1
+// console.log(Math.random());  //it gives value between 0 and 1
 // console.log((Math.random() *10) + 1);
 // console.log(Math.floor(Math.random() *10) +1);
 
