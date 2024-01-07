@@ -15,5 +15,9 @@ because of issue in block scope and functional scope
 accountEmail = "xyz@gmail.com"
 accountCity = "Banglore"
 accountPassword = "123456"
-console.log(accountId);
+// console.log(accountId);
 console.table([accountEmail , accountId , accountPassword , accountCity , accountState, accountType]);
+// console.log(typeof accountEmail);
+// console.log(typeof accountCity);
+// console.log(typeof accountPassword);
+
