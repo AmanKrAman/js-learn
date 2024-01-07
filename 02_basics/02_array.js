@@ -1,6 +1,6 @@
 const bheros = ["khan" , "amir" , "akshay" , "ajay"]
 const cheros = ["gauri" , "babita" , "ravina" , "kajol"]
-// bheros.push(cheros)
+//  bheros.push(cheros)
 // console.log(bheros);
 // console.log(bheros[4][2]);
 
@@ -27,3 +27,8 @@ let score1 = 100
 let score2 = 200
 let score3 = 300
 console.log(Array.of(score1, score2 , score3));
+
+
+
+
+//node 02_basics/02_array.js

@@ -1,5 +1,4 @@
 // const tinderUser  = new Object()
-
 const tinderUser = {}
 tinderUser.id = "213abc"
 tinderUser.name = "Aman"
@@ -43,8 +42,8 @@ const user = [
 
 // console.log(user[2].email);
 
-// console.log(tinderUser);
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));

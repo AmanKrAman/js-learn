@@ -29,12 +29,13 @@ console.log("A" , arr1);
 
 const newarr1 = arr1.slice(1,4);
 console.log(newarr1);
-
+console.log(newarr);
 console.log("B" , arr1);
 const newarr2 = arr1.splice(1,4);
 console.log("C" , arr1);
 console.log(newarr2);
 console.log("D" , arr1);
+
 
 //In slice output come from the original array but does not include the end range
 //In splice the given range elements gets deleted from the array and give output excluding those elements as done in above example 
@@ -43,3 +44,4 @@ console.log("D" , arr1);
 
 
 
+//node 02_basics/01_arrays.js
