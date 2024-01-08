@@ -1,3 +1,5 @@
+//Run : node 02_basics/03_objects.js
+
 //singleton 
 // Object.create
 //object literals
@@ -31,7 +33,7 @@ jsUser.greeting = function(){
 // console.log(jsUser.greeting());
 // console.log(jsUser.greeting);
 jsUser.greetingtwo = function(){
-    console.log(`Hello js user , ${this.name}`);
+     console.log(`Hello js user , ${this.name}`);
 }
 console.log(jsUser.greetingtwo());
 

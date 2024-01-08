@@ -21,7 +21,9 @@ const anotherarrreal = anotherarr.flat(Infinity)
 console.log(Array.isArray("Aman"))
 console.log(Array.from("Aman"));
 console.log(Array.from({name: "Aman"})); //intersting , it will give empty case
-// console.log(Array.from({"Aman" ,"Kumar"}));
+
+
+console.log(Array.from({"Aman" ,"Kumar"}));
 
 let score1 = 100
 let score2 = 200
