@@ -33,7 +33,7 @@ function logInUserMessage(username){
     }
     return `${username} just Logged In`
 }
-// console.log(logInUserMessage());
+// console.log(logInUserMessage("Aman"));
 
 
 function calculateCartPrice(...num1){ 
@@ -66,4 +66,4 @@ function returnSecondValue(getArray){
     return getArray[3];
 }
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([500,200,300,600]));
+console.log(returnSecondValue(myNewArray));
