@@ -1,3 +1,4 @@
+// Run : node 03_basics/04_iife.js
 //Immediately Invoked Function Expressions (IIFE)
 
 (function fun() {
@@ -10,12 +11,12 @@
 // we use IIFE to protect from global pollution
 
 
-(function value(){
-    console.log("datebase connected again");
-})();
+// (function value(){
+//     console.log("datebase connected again");
+// })();
 
-((name) => {
-    console.log(`DataBase Connected again, ${name}` );
-})('Aman');
+// ((name) => {
+//     console.log(`DataBase Connected again, ${name}` );
+// })('Aman');
 
 
