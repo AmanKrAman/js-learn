@@ -32,7 +32,7 @@ if(true){
         const website = " instagram"
         // console.log( name + website);
     }
-    // console.log(website);
+    // console.log(website);     // not definedn: out of the scope
 }
 
 
