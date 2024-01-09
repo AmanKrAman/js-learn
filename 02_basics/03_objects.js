@@ -5,7 +5,7 @@
 //object literals
 const mySym = Symbol("key1")   //method to use symbol ...continue...
 const jsUser ={
-    name:"Aman",
+    name:"Akash",
     "full name":"AmanKumar",
     [mySym] : "myKey1",               //method to use symbol.
     age:23,
@@ -24,7 +24,7 @@ const jsUser ={
 // console.log(typeof mySym);
 jsUser.email = "ak582@gmail.com"
 //  Object.freeze(jsUser)   //here object get freeze
-jsUser.email = "aman45646131@jk.com" //no further change occur because object are freeze
+// jsUser.email = "aman45646131@jk.com" //no further change occur because object are freeze
 //  console.log(jsUser);
 
 jsUser.greeting = function(){
