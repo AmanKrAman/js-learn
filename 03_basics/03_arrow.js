@@ -14,14 +14,14 @@ const user = {
 // user.username= "ajay"
 // user.welcomeMessage()
 
-// console.log(this);
+// console.log(this);       // output : {}
 
-// function fun(){
-//     let username = "Aman"
-//     // console.log(this);
-//     // console.log(this.username);
-// }
-// // fun()
+function fun(){
+    let username = "Aman"
+    // console.log(this);
+    // console.log(this.username);
+}
+// fun()
 
 // const val = function () {
 //     let username = "Aman"
@@ -32,7 +32,7 @@ const user = {
 const val =  () => {
     let username = "Aman"
     // console.log(this.username);
-    console.log(this);
+    // console.log(this);
 }
 // val()
 
@@ -41,12 +41,12 @@ const val =  () => {
 // const addTwo = (num1 , num2) => {
 //     return num1+num2      // Explicit return , here return word required
 // }
-// console.log(addTwo(8,9));
+// // console.log(addTwo(8,9));
 
 // const addTwo = (num1 , num2) =>  num1 + num2    //implicit return
 // const addTwo = (num1 , num2) =>  (num1 + num2)
 // const addTwo = (num1 , num2) =>  {return num1 + num2}
-const addTwo = (num1 , num2) =>  ({username : "Aman"})
-console.log(addTwo(8,9));
+// const addTwo = (num1 , num2) =>  ({username : "Aman"})
+// console.log(addTwo(8,9));
 
 // if you are using curly braces in implicit return return or parenthsis required
