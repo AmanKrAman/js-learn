@@ -11,7 +11,7 @@ function sayMyName() {
 //     console.log(num1 + num2);
 // }
 // const result =  add(5,9)
-// console.log(result);
+// console.log(result);        //undefined
 
 // function add(num1, num2){
 //     let ans = num1+num2
@@ -26,13 +26,13 @@ function sayMyName() {
 // const ans = add(8,2)
 // console.log("answer : ", ans);
 
-function logInUserMessage(username){
-    if(!username){
-        console.log("please enter a username"); 
-        return
-    }
-    return `${username} just Logged In`
-}
+// function logInUserMessage(username){
+//     if(!username){
+//         console.log("please enter a username"); 
+//         return
+//     }
+//     return `${username} just Logged In`
+// }
 // console.log(logInUserMessage("Aman"));
 
 
@@ -41,9 +41,9 @@ function calculateCartPrice(...num1){
 }
 // console.log(calculateCartPrice(200,400,500,2000));
 
-function calculateCartPrice(val1 , val2 , ...num1){ 
-    return num1
-}
+// function calculateCartPrice(val1 , val2 , ...num1){ 
+//     return num1
+// }
 // console.log(calculateCartPrice(200,400,500,2000));
 
 const user = {
@@ -52,7 +52,7 @@ const user = {
 }
 
 function handleObject(anyObject){
-    console.log(`Username is ${anyObject.username} ans price is ${anyObject.price}`);
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
 }
 
 // handleObject(user)
@@ -61,9 +61,9 @@ handleObject({
     price:5000
 })
 
-const myNewArray = [500,200,300,600]
-function returnSecondValue(getArray){
-    return getArray[3];
-}
+// const myNewArray = [500,200,300,600]
+// function returnSecondValue(getArray){
+//     return getArray[3];
+// }
+// // console.log(returnSecondValue(myNewArray));
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue(myNewArray));
