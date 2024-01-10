@@ -29,11 +29,11 @@ function fun(){
 // }
 // val()
 
-const val =  () => {
-    let username = "Aman"
-    // console.log(this.username);
-    // console.log(this);
-}
+// const val =  () => {
+//     let username = "Aman"
+//     console.log(this.username);
+//     console.log(this);
+// }
 // val()
 
 //  Arrow function : ()=>{}
