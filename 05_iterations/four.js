@@ -6,9 +6,9 @@ const myObj = {
     Rb :'Rubby'
 }
 
-// for(const key in myObj){
-//     console.log(myObj[key]);
-// }
+for(const key in myObj){
+    // console.log(myObj[key]);         
+}
 
 const code = ["js","c++","Rb"]
 for(const key in code){

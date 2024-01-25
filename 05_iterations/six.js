@@ -2,10 +2,10 @@
 
 const coding = ["python" , "cpp" ,"js", "Ruby"];
 
-// const values = coding.forEach((item) => {
-//     console.log(item);
-//     return item  //foreach does not return anything
-// })
+const values = coding.forEach((item) => {
+    // console.log(item);
+    return item  //foreach does not return anything
+})
 // console.log(values);  //undefined
 
 
@@ -14,14 +14,14 @@ const coding = ["python" , "cpp" ,"js", "Ruby"];
 // const newNum = myNum.filter((num) => num > 4)
 // console.log(newNum);
 
-// const newNum = []
-// const myNum = [1,2,3,4,5,6,7,8,9,10];
-// myNum.forEach((num) => {
-//     if(num >4){
-//         newNum.push(num);
-//     }
+const newNum = []
+const myNum = [1,2,3,4,5,6,7,8,9,10];
+myNum.forEach((num) => {
+    if(num >4){
+        newNum.push(num);
+    }
     
-// })
+})
 // console.log(newNum);
 
 

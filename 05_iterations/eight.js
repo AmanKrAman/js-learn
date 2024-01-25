@@ -2,11 +2,11 @@
 
 const arr= [1,2,3]
 
-// const i =0;
+const i =0;
 // const sum = arr.reduce((acc,curr) => acc+curr, i)
 // console.log(sum);
 
-// const sum = arr.reduce((acc,curr) => acc+curr,0)
+const sum = arr.reduce((acc,curr) => acc+curr,0)
 // console.log(sum);
 
 
@@ -30,4 +30,5 @@ const shoppingCart = [
 ]
 
 const ans = shoppingCart.reduce((acc,item) => acc+item.price,0)
-console.log(ans);
+// console.log(ans);
+

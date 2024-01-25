@@ -1,17 +1,17 @@
 // Run :  node 05_iterations/five.js
 
 const coding = ["Js" , "Java" ,"Ruby", "Javascript"]
-// coding.forEach(function (val){
-//     console.log(val);
-// })
+coding.forEach(function (val){
+    // console.log(val);
+})
 
-// coding.forEach((item) => {
-//     console.log(item);
-// })
+coding.forEach((item) => {
+    // console.log(item);
+})
 
-// function print(item){
-//     console.log(item);
-// }
+function print(item){
+    console.log(item);
+}
 // coding.forEach(print)
 
 // coding.forEach( (item , index ,arr) => {
@@ -35,5 +35,5 @@ const myCode = [
 ]
 
 myCode.forEach((item) => {
-    console.log(item.lang  +':-'+ item.language);
+    // console.log(item.lang  +':-'+ item.language);
 })
