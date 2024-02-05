@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body style="background-color: #212121; color :#fff;">
+    
+    
+</body>
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = "main";
+    div.id = Math.round(Math.random() *10 + 1);
+    div.style.backgroundColor="pink";
+    div.setAttribute("title" , "General title");
+    div.style.padding = "15px";
+    div.innerText = "Hey MAN \n";
+    const textNode = document.createTextNode("Hey there");
+    div.appendChild(textNode);
+    document.body.appendChild(div)
+
+
+</script>
+</html>
